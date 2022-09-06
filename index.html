@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Dancing | JS</title>
+    <style>
+        *{
+           padding: 0%;
+           margin: 0%;
+        }
+        main{
+            /* background-color: red; */
+            box-shadow: inset 0px 0px 50px 40px green;
+            height: 548px;
+            width: 100%;
+            padding-top: 8%;
+            text-align: center;
+            margin: auto;
+            /* margin-top: 8%; */
+        }
+        img{
+            height: 300px;
+            padding-bottom: 30px;
+        }
+        button{
+            color: white;
+            background-color: green;
+            padding: 10px 20px;
+            border-radius: 10%;
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="image">
+            <img id="image-1" src="./image/1.jpg" alt="">
+        </div>
+        <div class="button">
+            <button onclick="document.getElementById('image-1').src='./image/1.jpg'">Stop</button>
+            <button onclick="document.getElementById('image-1').src=('./image/4.gif')">Dance</button>
+        </div>
+    </main>
+</body>
+</html>
